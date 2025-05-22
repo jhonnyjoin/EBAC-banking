@@ -11,11 +11,15 @@
     width: 100%;
 }
 
+header {
+    text-align: center; 
+}
+
 form {
     margin-top: 40px;
 }
 
-input, textarea,button {
+input, textarea, button {
     display: block;
     padding: 8px;
     margin-bottom: 8px;
@@ -60,3 +64,4 @@ input.error {
     border-color: red;
     outline-color: red; /*a cor daquele linha preta*/
 }
+
